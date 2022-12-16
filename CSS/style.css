@@ -37,12 +37,18 @@ img{
     flex-basis: calc(100%/3);
 }
 
+.testo{
+    line-height: 16px;
+    padding: 4px 0;
+}
+
 /* ----------ELEMENT RULES----------------------------------------------------- */
 
 .etichetta{
     display: inline-block;
     font-size: 12px;
     color: white;
+    font-weight: 600;
 }
 
 .sconto{
@@ -60,6 +66,29 @@ img{
     padding: 4px 10px;
     font-size: 24px;
     color: black;
+}
+
+.marca{
+    font-size: 14px;
+}
+
+.prodotto{
+    font-size: 18px;
+    font-variant: small-caps;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.attuale{
+    font-size: 16px;
+    font-weight: 600;
+    color: red;
+    margin-right: 2px;
+}
+
+.vecchio{
+    font-size: 16px;
+    text-decoration:line-through;
 }
 
 
