@@ -136,7 +136,13 @@ img{
 
 /* ----------HOVER RULES----------------------------------------------------- */
 
-
+.c1:hover .hide {display: block;}
+.hide {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  display: none;
+}
 
 
 .c2:hover .hide {display: block;}
@@ -144,12 +150,40 @@ img{
   position: absolute;
   width: 100%;
   z-index: 10;
-  background-image: url(../img/1b.webp);
   display: none;
 }
 
+.c3:hover .hide {display: block;}
+.hide {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  display: none;
+}
 
+.c4:hover .hide {display: block;}
+.hide {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  display: none;
+}
 
+.c5:hover .hide {display: block;}
+.hide {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  display: none;
+}
+
+.c6:hover .hide {display: block;}
+.hide {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  display: none;
+}
 
 /* ----------DEBUG RULES----------------------------------------------------- */
 /* (modifica .debug dal css per disattivare) */
