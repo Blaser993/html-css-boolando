@@ -87,6 +87,11 @@ img{
     left: 46px;
 }
 
+.extra.singola{
+    position: absolute;
+    left: 0px;
+}
+
 .cuore{
     background-color: rgb(255, 255, 255);
     padding: 4px 10px;
