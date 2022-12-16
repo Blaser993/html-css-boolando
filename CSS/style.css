@@ -12,31 +12,44 @@
     list-style-type: none;
 }
 
-.container{
+* .container{
     max-width: 900px;
-    margin: 0, auto;
+    padding: 0 auto, 
 }
 
 img{
-    max-height: 100%;
+    max-width: 100%;
+    display: block;
 }
+
+
 
 /* ----------LAYOUT RULES----------------------------------------------------- */
 
 .row{
     min-height: 50px;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col{
+    flex-basis: calc(100%/3);
 }
 
 /* ----------ELEMENT RULES----------------------------------------------------- */
 
 /* ----------DEBUG RULES----------------------------------------------------- */
-/* (elimina .debug dal body per disattivare) */
+/* (modifica .debug dal css per disattivare) */
 
 
 .debug{
     border: 2px dashed orange;
     padding: 10px;
+}
+
+.container.debug{
+    border: 1px solid red;
 }
 
 header.debug{
@@ -47,6 +60,7 @@ header.debug{
 main.debug{
     min-height: 100px;
     background-color: rgb(255, 244, 127);
+    margin: 0;
 }
 
 footer.debug{
