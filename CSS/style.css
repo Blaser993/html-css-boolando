@@ -33,14 +33,31 @@ img{
     flex-wrap: wrap;
 }
 
+
+
 .col{
     flex-basis: calc(100%/3);
 }
+
+
 
 .testo{
     line-height: 16px;
     padding: 4px 0;
 }
+
+
+.gruppo-etichette{
+    position: absolute;
+    bottom: 40px;
+
+}
+
+
+.immagine{
+    position: relative;
+}
+
 
 /* ----------ELEMENT RULES----------------------------------------------------- */
 
@@ -49,16 +66,23 @@ img{
     font-size: 12px;
     color: white;
     font-weight: 600;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 
 .sconto{
     background-color: red;
     padding: 4px 8px;
+    position: absolute;
+    max-width: 46px;  
 }
 
 .extra{
     background-color: green;
     padding: 4px 8px;
+    position: absolute;
+    left: 46px;
 }
 
 .cuore{
@@ -66,6 +90,9 @@ img{
     padding: 4px 10px;
     font-size: 24px;
     color: black;
+    position: absolute;
+    right: 0px;
+    top: 20px;   
 }
 
 .marca{
