@@ -1,0 +1,160 @@
+
+/* QUESTO è LO STYLE DEL BONUS */
+
+/* INDICE
+- RESET RULES
+- LAYOUT RULES
+- ELEMENT RULES
+- DEBUG RULES */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container{
+    max-width: 900px;
+    margin: 36px auto; 
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+
+
+
+
+/* ----------LAYOUT RULES----------------------------------------------------- */
+
+.row{
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+.col{
+    flex-basis: calc((100%-40px)/3);
+}
+
+
+
+.testo{
+    line-height: 16px;
+    padding: 4px 0;
+}
+
+
+.gruppo-etichette{
+    position: absolute;
+    bottom: 40px;
+
+}
+
+
+.box-immagine{
+    position: relative;
+}
+
+
+/* ----------ELEMENT RULES----------------------------------------------------- */
+
+
+
+.etichetta{
+    display: inline-block;
+    font-size: 12px;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.sconto{
+    background-color: red;
+    padding: 4px 8px;
+    position: absolute;
+    max-width: 46px;  
+}
+
+.extra{
+    background-color: green;
+    padding: 4px 8px;
+    position: absolute;
+    left: 46px;
+}
+
+.extra.singola{
+    position: absolute;
+    left: 0px;
+}
+
+.cuore{
+    background-color: rgb(255, 255, 255);
+    padding: 4px 10px;
+    font-size: 24px;
+    color: black;
+    position: absolute;
+    right: 0px;
+    top: 20px;   
+}
+
+.marca{
+    font-size: 14px;
+}
+
+.prodotto{
+    font-size: 18px;
+    font-variant: small-caps;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.attuale{
+    font-size: 16px;
+    font-weight: 600;
+    color: red;
+    margin-right: 2px;
+}
+
+.vecchio{
+    font-size: 16px;
+    text-decoration:line-through;
+}
+
+
+/* ----------DEBUG RULES----------------------------------------------------- */
+/* (modifica .debug dal css per disattivare) */
+
+
+.debug{
+    border: 2px dashed orange;
+}
+
+.container.debug{
+    border: 1px solid red;
+}
+
+header.debug{
+    min-height: 100px;
+    background-color: aquamarine;
+}
+
+main.debug{
+    min-height: 100px;
+    background-color: rgb(255, 244, 127);
+    margin: 0;
+}
+
+footer.debug{
+    min-height: 100px;
+    background-color: rgb(159, 159, 159);    
+}
