@@ -12,9 +12,9 @@
     list-style-type: none;
 }
 
-* .container{
+.container{
     max-width: 900px;
-    padding: 0 auto, 
+    margin: 0 auto; 
 }
 
 img{
