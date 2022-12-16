@@ -76,13 +76,15 @@ img{
     position: absolute;
     top: 0px;
     right: 0px;
+    z-index: 10;
 }
 
 .sconto{
     background-color: red;
     padding: 4px 8px;
     position: absolute;
-    max-width: 46px;  
+    max-width: 46px;
+    z-index: 10; 
 }
 
 .extra{
@@ -90,11 +92,13 @@ img{
     padding: 4px 8px;
     position: absolute;
     left: 46px;
+    z-index: 10;
 }
 
 .extra.singola{
     position: absolute;
     left: 0px;
+    z-index: 10;
 }
 
 .cuore{
@@ -129,6 +133,22 @@ img{
     font-size: 16px;
     text-decoration:line-through;
 }
+
+/* ----------HOVER RULES----------------------------------------------------- */
+
+
+
+
+.c2:hover .hide {display: block;}
+.hide {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  background-image: url(../img/1b.webp);
+  display: none;
+}
+
+
 
 
 /* ----------DEBUG RULES----------------------------------------------------- */
