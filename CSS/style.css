@@ -39,6 +39,30 @@ img{
 
 /* ----------ELEMENT RULES----------------------------------------------------- */
 
+.etichetta{
+    display: inline-block;
+    font-size: 12px;
+    color: white;
+}
+
+.sconto{
+    background-color: red;
+    padding: 4px 8px;
+}
+
+.extra{
+    background-color: green;
+    padding: 4px 8px;
+}
+
+.cuore{
+    background-color: rgb(255, 255, 255);
+    padding: 4px 10px;
+    font-size: 24px;
+    color: black;
+}
+
+
 /* ----------DEBUG RULES----------------------------------------------------- */
 /* (modifica .debug dal css per disattivare) */
 
