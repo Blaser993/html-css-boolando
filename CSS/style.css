@@ -14,7 +14,7 @@
 
 .container{
     max-width: 900px;
-    margin: 0 auto; 
+    margin: 36px auto; 
 }
 
 img{
@@ -130,9 +130,8 @@ img{
 /* (modifica .debug dal css per disattivare) */
 
 
-.-debug{
+.debug{
     border: 2px dashed orange;
-    padding: 10px;
 }
 
 .container.debug{
