@@ -36,7 +36,7 @@ img{
 
 
 .col{
-    flex-basis: calc(100%/3);
+    flex-basis: calc((100%-40px)/3);
 }
 
 
@@ -54,12 +54,14 @@ img{
 }
 
 
-.immagine{
+.box-immagine{
     position: relative;
 }
 
 
 /* ----------ELEMENT RULES----------------------------------------------------- */
+
+
 
 .etichetta{
     display: inline-block;
@@ -123,7 +125,7 @@ img{
 /* (modifica .debug dal css per disattivare) */
 
 
-.debug{
+.-debug{
     border: 2px dashed orange;
     padding: 10px;
 }
