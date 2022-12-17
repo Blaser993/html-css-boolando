@@ -38,13 +38,23 @@ img{
     flex-wrap: wrap;
 }
 
+.start-spaced{
+    min-height: 0%;
+    justify-content: flex-start;
+}
 
+.end-spaced{
+    min-height: 0%;
+    justify-content: flex-end;
+}
 
 .col{
     flex-basis: calc((100%-40px)/3);
 }
 
-
+.card{
+    padding: 12px;
+}
 
 .testo{
     line-height: 16px;
@@ -136,54 +146,39 @@ img{
 
 /* ----------HOVER RULES----------------------------------------------------- */
 
-.c1:hover .hide {display: block;}
 .hide {
-  position: absolute;
-  width: 100%;
-  z-index: 10;
-  display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    display: none;
+  }
+ 
+
+.c1:hover .hide {
+    display: block;
+}
+
+.c2:hover .hide {
+    display: block;
+}
+
+.c3:hover .hide {
+    display: block;
 }
 
 
-.c2:hover .hide {display: block;}
-.hide {
-  position: absolute;
-  width: 100%;
-  z-index: 10;
-  display: none;
+.c4:hover .hide {
+    display: block;
 }
 
-.c3:hover .hide {display: block;}
-.hide {
-  position: absolute;
-  width: 100%;
-  z-index: 10;
-  display: none;
+.c5:hover .hide {
+    display: block;
 }
 
-.c4:hover .hide {display: block;}
-.hide {
-  position: absolute;
-  width: 100%;
-  z-index: 10;
-  display: none;
+.c6:hover .hide {
+    display: block;
 }
 
-.c5:hover .hide {display: block;}
-.hide {
-  position: absolute;
-  width: 100%;
-  z-index: 10;
-  display: none;
-}
-
-.c6:hover .hide {display: block;}
-.hide {
-  position: absolute;
-  width: 100%;
-  z-index: 10;
-  display: none;
-}
 
 /* ----------DEBUG RULES----------------------------------------------------- */
 /* (modifica .debug dal css per disattivare) */
