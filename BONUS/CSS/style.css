@@ -19,16 +19,24 @@ body{
     position: relative;
 }
 
+a{
+    color: currentColor;
+}
+
 header{
     z-index: 50;
     position: fixed;
     top: 0px;
     min-height: 10px;
-    width: 100%;   
+    width: 100%;  
+    background-color: orange; 
+    color: white;
 }
 
 header .container{
-    padding: 0px 12px;
+    height: 36px;
+    margin: 12px auto;
+    padding: 0 12px;
 }
 
 .container{
@@ -37,7 +45,7 @@ header .container{
 }
 
 main .container{
-    margin-top: 150px;
+    margin-top: 80px;
     /* compenso la misura dell'header fixed */
 }
 
@@ -47,7 +55,7 @@ img{
 }
 
 img.logo{
-    max-height: 36px;
+    max-height: 24px;
     padding: 0px auto;
     display: inline-block;
 }
@@ -61,6 +69,16 @@ img.logo{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    height: 100%;
+    align-content: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100%;
+    align-content: center;
 }
 
 .col.center{
@@ -69,9 +87,9 @@ img.logo{
 }
 
 .start-spaced{
+    margin-left: -12px;
     min-height: 0%;
     justify-content: flex-start;
-    margin-right: 40%;
 }
 
 .end-spaced{
@@ -82,6 +100,11 @@ img.logo{
 
 .col{
     flex-basis: calc((100%-40px)/3);
+}
+
+.item{
+    flex-basis: content;
+    padding: 2px 8px;
 }
 
 .card{
