@@ -15,9 +15,30 @@
     list-style-type: none;
 }
 
+body{
+    position: relative;
+}
+
+header{
+    z-index: 50;
+    position: fixed;
+    top: 0px;
+    min-height: 10px;
+    width: 100%;   
+}
+
+header .container{
+    padding: 0px 12px;
+}
+
 .container{
     max-width: 900px;
     margin: 36px auto; 
+}
+
+main .container{
+    margin-top: 150px;
+    /* compenso la misura dell'header fixed */
 }
 
 img{
@@ -25,6 +46,11 @@ img{
     display: block;
 }
 
+img.logo{
+    max-height: 36px;
+    padding: 0px auto;
+    display: inline-block;
+}
 
 
 
@@ -32,20 +58,26 @@ img{
 /* ----------LAYOUT RULES----------------------------------------------------- */
 
 .row{
-    min-height: 50px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
+.col.center{
+    display: flex;
+    justify-content: center;
+}
+
 .start-spaced{
     min-height: 0%;
     justify-content: flex-start;
+    margin-right: 40%;
 }
 
 .end-spaced{
     min-height: 0%;
     justify-content: flex-end;
+    margin-left: 40%;
 }
 
 .col{
