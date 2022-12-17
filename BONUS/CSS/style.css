@@ -199,6 +199,24 @@ img.logo{
     text-decoration:line-through;
 }
 
+/* ----------FOOTER RULES----------------------------------------------------- */
+
+footer .container .row > .col:last-child{
+    display: contents;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    padding: 24px 0;
+}
+
+footer .container{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
 /* ----------HOVER RULES----------------------------------------------------- */
 
 .hide {
